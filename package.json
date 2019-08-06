@@ -1,0 +1,17 @@
+{
+  "name": "simple-selenium-server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "selenium": "./bin/selenium.sh"
+  },
+  "dependencies": {
+    "@wdio/cli": "^5.11.13",
+    "cheerio": "^1.0.0-rc.3",
+    "webdriverio": "^4.13.2"
+  },
+  "devDependencies": {
+    "@wdio/selenium-standalone-service": "^5.11.2"
+  }
+}
